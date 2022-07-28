@@ -21,6 +21,9 @@ module.exports = () => {
     case "help":
       require("./cmds/help")(args);
       break;
+    case "weather":
+      require("./utils/weather")(args);
+      break;
     case "forecast":
       require("./cmds/forecast")(args);
       break;

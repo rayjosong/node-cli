@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "minimist": "^1.2.6"
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "minimist": "^1.2.6",
+    "ora": "^5.4.1"
   }
 }
